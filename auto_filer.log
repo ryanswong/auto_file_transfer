@@ -1,0 +1,131 @@
+2020-08-11 02:53:11,759:INFO:suzur:<module>: file transfer program ran from user: suzur
+2020-08-11 02:53:11,786:ERROR:suzur:<module>: Unexpected Error:
+Traceback (most recent call last):
+  File "auto_filer.py", line 122, in parse_config
+    assert(isinstance(self._fields_config, (dict)))
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "auto_filer.py", line 324, in <module>
+    autofiler.parse_config("auto_filer_config.yml")
+  File "auto_filer.py", line 155, in parse_config
+    input("\npress ENTER to dismiss...\n")
+RuntimeError: input(): lost sys.stdin
+2020-08-11 02:53:11,828:INFO:suzur:<module>: file transfer program ended
+
+2020-08-11 02:54:07,474:INFO:suzur:<module>: file transfer program ran from user: suzur
+2020-08-11 02:54:16,000:INFO:suzur:<module>: file transfer program ran from user: suzur
+2020-08-11 02:54:41,901:ERROR:suzur:parse_config: Corrupt configuration file format
+Traceback (most recent call last):
+  File "\\sf-level8-nas1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\auto_filer.py", line 122, in parse_config
+    assert(isinstance(self._fields_config, (list)))
+AssertionError
+2020-08-11 02:54:41,926:INFO:suzur:<module>: System Exit
+2020-08-11 02:54:41,933:INFO:suzur:<module>: file transfer program ended
+
+2020-08-11 02:54:46,012:INFO:suzur:<module>: file transfer program ran from user: suzur
+2020-08-11 02:54:46,787:INFO:suzur:run_matches: 313 scanned, 3 matched, 6 failed, 304 skipped.
+2020-08-11 02:54:49,833:INFO:suzur:run_transfers: transfered successfully:
+    filename: "111 1st Ave - NFM - vendor name 11 - 111.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\111 1st Ave - name1\vendor NFM"
+2020-08-11 02:54:49,836:INFO:suzur:run_transfers: transfered successfully:
+    filename: "222 - NFM -- 222.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\222 2nd Ave - name2\vendor NFM"
+2020-08-11 02:54:49,840:INFO:suzur:run_transfers: transfered successfully:
+    filename: "222 2nd Ave - NFM - vendor name 22 - 222.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\222 2nd Ave - name2\vendor NFM"
+2020-08-11 02:54:50,496:INFO:suzur:<module>: file transfer program ended
+
+2020-08-11 02:55:00,958:ERROR:suzur:parse_config: Corrupt configuration file format
+Traceback (most recent call last):
+  File "auto_filer.py", line 122, in parse_config
+    assert(isinstance(self._fields_config, (list)))
+AssertionError
+2020-08-11 02:55:00,990:INFO:suzur:<module>: System Exit
+2020-08-11 02:55:01,012:INFO:suzur:<module>: file transfer program ended
+
+2020-08-11 02:56:15,968:INFO:suzur:<module>: file transfer program ran from user: suzur
+2020-08-11 02:56:16,823:INFO:suzur:run_matches: 313 scanned, 3 matched, 6 failed, 304 skipped.
+2020-08-11 02:56:51,955:INFO:suzur:run_transfers: transfered successfully:
+    filename: "111 1st Ave - NFM - vendor name 11 - 111.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\111 1st Ave - name1\vendor NFM"
+2020-08-11 02:56:51,964:INFO:suzur:run_transfers: transfered successfully:
+    filename: "222 - NFM -- 222.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\222 2nd Ave - name2\vendor NFM"
+2020-08-11 02:56:51,968:INFO:suzur:run_transfers: transfered successfully:
+    filename: "222 2nd Ave - NFM - vendor name 22 - 222.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\222 2nd Ave - name2\vendor NFM"
+2020-08-11 02:56:53,136:INFO:suzur:<module>: file transfer program ended
+
+2020-08-11 02:57:25,112:INFO:suzur:<module>: file transfer program ran from user: suzur
+2020-08-11 02:57:26,365:INFO:suzur:run_matches: 313 scanned, 3 matched, 6 failed, 304 skipped.
+2020-08-11 02:57:28,966:INFO:suzur:run_transfers: transfered successfully:
+    filename: "111 1st Ave - NFM - vendor name 11 - 111.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\111 1st Ave - name1\vendor NFM"
+2020-08-11 02:57:28,971:INFO:suzur:run_transfers: transfered successfully:
+    filename: "222 - NFM -- 222.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\222 2nd Ave - name2\vendor NFM"
+2020-08-11 02:57:28,974:INFO:suzur:run_transfers: transfered successfully:
+    filename: "222 2nd Ave - NFM - vendor name 22 - 222.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\222 2nd Ave - name2\vendor NFM"
+2020-08-11 02:57:29,479:INFO:suzur:<module>: file transfer program ended
+
+2020-08-11 02:59:28,204 : INFO : suzur : <module> : file transfer program ran from user: suzur
+2020-08-11 02:59:28,998 : INFO : suzur : run_matches : 313 scanned, 3 matched, 6 failed, 304 skipped.
+2020-08-11 03:00:06,280 : INFO : suzur : <module> : file transfer program ran from user: suzur
+2020-08-11 03:00:07,078 : INFO : suzur : run_matches : 313 scanned, 3 matched, 6 failed, 304 skipped.
+2020-08-11 03:00:08,743 : INFO : suzur : run_transfers : transfered successfully:
+    filename: "111 1st Ave - NFM - vendor name 11 - 111.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\111 1st Ave - name1\vendor NFM"
+2020-08-11 03:00:08,750 : INFO : suzur : run_transfers : transfered successfully:
+    filename: "222 - NFM -- 222.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\222 2nd Ave - name2\vendor NFM"
+2020-08-11 03:00:08,753 : INFO : suzur : run_transfers : transfered successfully:
+    filename: "222 2nd Ave - NFM - vendor name 22 - 222.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\222 2nd Ave - name2\vendor NFM"
+2020-08-11 03:00:08,889 : INFO : suzur : <module> : file transfer program ended
+
+2020-08-11 03:02:26,768 : INFO : suzur : main : file transfer program ran from user: suzur
+2020-08-11 03:02:27,590 : INFO : suzur : run_matches : 313 scanned, 3 matched, 6 failed, 304 skipped.
+2020-08-11 03:02:29,108 : INFO : suzur : run_transfers : transfered successfully:
+    filename: "111 1st Ave - NFM - vendor name 11 - 111.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\111 1st Ave - name1\vendor NFM"
+2020-08-11 03:02:29,113 : INFO : suzur : run_transfers : transfered successfully:
+    filename: "222 - NFM -- 222.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\222 2nd Ave - name2\vendor NFM"
+2020-08-11 03:02:29,138 : INFO : suzur : run_transfers : transfered successfully:
+    filename: "222 2nd Ave - NFM - vendor name 22 - 222.00 - QB - P.txt"
+    from:     "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\source_folder"
+    to:       "\\SF-Level8-NAS1\Level 8\01 - L8 - back office\01 - L8 INBOX\chiyumi_hold\file_transfer_program\test_dir\target_folder\222 2nd Ave - name2\vendor NFM"
+2020-08-11 03:02:30,435 : INFO : suzur : main : file transfer program ended
+
+2020-08-11 14:56:48,504 : INFO : suzur : <module> : file transfer program ran from user: suzur
+2020-08-11 14:56:49,356 : INFO : suzur : run_matches : 257 scanned, 0 matched, 0 failed, 257 skipped.
+2020-08-11 14:56:51,832 : INFO : suzur : <module> : System Exit
+2020-08-11 14:56:51,835 : INFO : suzur : <module> : file transfer program ended
+
+2020-08-11 15:32:13,203 : INFO : suzur : <module> : file transfer program ran from user: suzur
+2020-08-11 15:32:14,114 : INFO : suzur : run_matches : 268 scanned, 4 matched, 7 failed, 257 skipped.
+2020-08-19 07:02:38,303:INFO:suzur:<module>: file transfer program ran from user: suzur
+2020-08-19 07:02:39,342:INFO:suzur:run_matches: 128 scanned, 1 matched, 11 failed, 116 skipped.
+2020-08-19 07:05:50,442:INFO:suzur:<module>: System Exit
+2020-08-19 07:05:50,442:INFO:suzur:<module>: file transfer program ended
+
+2020-08-19 16:50:58,342:INFO:csuzuki:<module>: file transfer program ran from user: csuzuki
+2020-08-19 16:50:58,687:INFO:csuzuki:run_matches: 127 scanned, 1 matched, 11 failed, 115 skipped.
